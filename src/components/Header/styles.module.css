@@ -1,0 +1,18 @@
+.header {
+    background-color: #f00e70;
+    display: flex;
+    gap: 15px;
+    list-style: none;
+    font-size: x-large;
+    align-items: center;
+
+}
+
+.titulo {
+    color: #ffffff;
+}
+
+.texto_header {
+    color: #ffffff;
+    text-decoration: none;
+}
