@@ -1,94 +1,94 @@
 {
-    "eventos": [
-      {
-        "id": 1,
-        "titulo": "Conferência Internacional de Arquitetura Sustentável",
-        "descricao": "Esta conferência reúne arquitetos, engenheiros e especialistas em sustentabilidade para discutir práticas inovadoras e soluções para projetos arquitetônicos sustentáveis em todo o mundo. Serão apresentados estudos de caso, pesquisas e tecnologias de ponta.",
-        "dataInicio": "2024-05-10",
-        "dataFim": "2024-05-12",
-        "local": "Centro de Convenções da Cidade",
-        "imagem": "arquitetura_sustentavel.png"
-      },
-      {
-        "id": 2,
-        "titulo": "Seminário de Design Urbano e Planejamento",
-        "descricao": "Este seminário aborda questões cruciais relacionadas ao design e planejamento de áreas urbanas. Palestrantes renomados discutirão estratégias para criar espaços urbanos funcionais, esteticamente agradáveis e sustentáveis.",
-        "dataInicio": "2024-07-25",
-        "dataFim": "2024-07-27",
-        "local": "Universidade Metropolitana",
-        "imagem": "Design-urbano.png"
-      },
-      {
-        "id": 3,
-        "titulo": "Encontro Anual de Arquitetura Contemporânea",
-        "descricao": "Este encontro destaca as tendências e inovações no campo da arquitetura contemporânea. Arquitetos renomados compartilharão projetos inspiradores e abordarão as influências culturais e tecnológicas na prática arquitetônica.",
-        "dataInicio": "2024-09-05",
-        "dataFim": "2024-09-07",
-        "local": "Centro de Convenções Metropolis",
-        "imagem": "arquitetura_contemporanea.png"
-      },
-      {
-        "id": 4,
-        "titulo": "Workshop de Tecnologia e Inovação na Arquitetura",
-        "descricao": "Este workshop explora as últimas tecnologias aplicadas à arquitetura, incluindo realidade aumentada, impressão 3D e inteligência artificial. Os participantes terão a oportunidade de experimentar ferramentas inovadoras.",
-        "dataInicio": "2024-10-14",
-        "dataFim": "2024-10-15",
-        "local": "Espaço de Inovação TechHub",
-        "imagem": "arquitetura_tecnologia.png"
-      },
-      {
-        "id": 5,
-        "titulo": "Simpósio de Arquitetura Vernacular",
-        "descricao": "Este simpósio se concentra na arquitetura vernacular, destacando as técnicas tradicionais e materiais locais utilizados em várias regiões do mundo. Serão discutidas as maneiras de integrar essas práticas em projetos contemporâneos.",
-        "dataInicio": "2024-11-03",
-        "dataFim": "2024-11-05",
-        "local": "Museu de Arte Folclórica",
-        "imagem": "arquitetura_vernacular.png"
-      },
-      {
-        "id": 6,
-        "titulo": "Conferência sobre Arquitetura Resiliente em Zonas de Desastre",
-        "descricao": "Esta conferência foca em estratégias arquitetônicas e urbanas para lidar com zonas propensas a desastres naturais. Os participantes aprenderão sobre técnicas de design e construção que promovem a resiliência em face de eventos adversos.",
-        "dataInicio": "2024-03-12",
-        "dataFim": "2024-03-14",
-        "local": "Centro de Convenções da Cidade",
-        "imagem": "arquitetura_resiliente.png"
-      },
-      {
-        "id": 7,
-        "titulo": "Palestra sobre Tendências Emergentes na Arquitetura",
-        "descricao": "Esta palestra destaca as tendências e inovações mais recentes no campo da arquitetura. Os palestrantes compartilharão insights sobre novos materiais, tecnologias e abordagens de design que estão moldando o futuro da profissão.",
-        "dataInicio": "2024-04-08",
-        "dataFim": "2024-04-08",
-        "local": "Auditório da Universidade Metropolitana",
-        "imagem": "arquitetura_tendencias.png"
-      },
-      {
-        "id": 8,
-        "titulo": "Fórum de Reabilitação e Restauração de Edifícios Históricos",
-        "descricao": "Este fórum reúne especialistas em preservação histórica e arquitetos para discutir as melhores práticas em reabilitação e restauração de edifícios antigos. Serão abordados temas como conservação de patrimônio e técnicas de restauração.",
-        "dataInicio": "2024-06-20",
-        "dataFim": "2024-06-22",
-        "local": "Centro Cultural do Patrimônio",
-        "imagem": "arquitetura_historica.png"
-      },
-      {
-        "id": 9,
-        "titulo": "Seminário de Paisagismo Urbano Sustentável",
-        "descricao": "Este seminário explora a integração de elementos naturais e espaços verdes em ambientes urbanos. Serão discutidas técnicas de paisagismo que promovem a sustentabilidade e a qualidade de vida nas cidades.",
-        "dataInicio": "2024-08-04",
-        "dataFim": "2024-08-06",
-        "local": "Instituto de Arquitetura Verde",
-        "imagem": "arquitetura_paisagismo.png"
-      },
-      {
-        "id": 10,
-        "titulo": "Encontro de Arquitetos Paisagistas",
-        "descricao": "Este encontro reúne arquitetos paisagistas para compartilhar projetos e ideias inovadoras no campo do design de espaços externos. Os participantes terão a oportunidade de trocar experiências e colaborar em novos projetos.",
-        "dataInicio": "2024-09-15",
-        "dataFim": "2024-09-17",
-        "local": "Centro de Eventos Botânica",
-        "imagem": "arquitetura_encontro.png"
-      }
-    ]
-  }
+  "eventos": [
+    {
+      "id": 1,
+      "titulo": "Conferência Internacional de Arquitetura Sustentável",
+      "descricao": "Esta conferência reúne arquitetos, engenheiros e especialistas em sustentabilidade para discutir práticas inovadoras e soluções para projetos arquitetônicos sustentáveis em todo o mundo. Serão apresentados estudos de caso, pesquisas e tecnologias de ponta.",
+      "dataInicio": "2024-05-10",
+      "dataFim": "2024-05-12",
+      "local": "Centro de Convenções da Cidade",
+      "imagem": "arquitetura_sustentavel.png"
+    },
+    {
+      "id": 2,
+      "titulo": "Seminário de Design Urbano e Planejamento",
+      "descricao": "Este seminário aborda questões cruciais relacionadas ao design e planejamento de áreas urbanas. Palestrantes renomados discutirão estratégias para criar espaços urbanos funcionais, esteticamente agradáveis e sustentáveis.",
+      "dataInicio": "2024-07-25",
+      "dataFim": "2024-07-27",
+      "local": "Universidade Metropolitana",
+      "imagem": "Design-urbano.png"
+    },
+    {
+      "id": 3,
+      "titulo": "Encontro Anual de Arquitetura Contemporânea",
+      "descricao": "Este encontro destaca as tendências e inovações no campo da arquitetura contemporânea. Arquitetos renomados compartilharão projetos inspiradores e abordarão as influências culturais e tecnológicas na prática arquitetônica.",
+      "dataInicio": "2024-09-05",
+      "dataFim": "2024-09-07",
+      "local": "Centro de Convenções Metropolis",
+      "imagem": "arquitetura_contemporanea.png"
+    },
+    {
+      "id": 4,
+      "titulo": "Workshop de Tecnologia e Inovação na Arquitetura",
+      "descricao": "Este workshop explora as últimas tecnologias aplicadas à arquitetura, incluindo realidade aumentada, impressão 3D e inteligência artificial. Os participantes terão a oportunidade de experimentar ferramentas inovadoras.",
+      "dataInicio": "2024-10-14",
+      "dataFim": "2024-10-15",
+      "local": "Espaço de Inovação TechHub",
+      "imagem": "arquitetura_tecnologia.png"
+    },
+    {
+      "id": 5,
+      "titulo": "Simpósio de Arquitetura Vernacular",
+      "descricao": "Este simpósio se concentra na arquitetura vernacular, destacando as técnicas tradicionais e materiais locais utilizados em várias regiões do mundo. Serão discutidas as maneiras de integrar essas práticas em projetos contemporâneos.",
+      "dataInicio": "2024-11-03",
+      "dataFim": "2024-11-05",
+      "local": "Museu de Arte Folclórica",
+      "imagem": "arquitetura_vernacular.png"
+    },
+    {
+      "id": 6,
+      "titulo": "Conferência sobre Arquitetura Resiliente em Zonas de Desastre",
+      "descricao": "Esta conferência foca em estratégias arquitetônicas e urbanas para lidar com zonas propensas a desastres naturais. Os participantes aprenderão sobre técnicas de design e construção que promovem a resiliência em face de eventos adversos.",
+      "dataInicio": "2024-03-12",
+      "dataFim": "2024-03-14",
+      "local": "Centro de Convenções da Cidade",
+      "imagem": "arquitetura_resiliente.png"
+    },
+    {
+      "id": 7,
+      "titulo": "Palestra sobre Tendências Emergentes na Arquitetura",
+      "descricao": "Esta palestra destaca as tendências e inovações mais recentes no campo da arquitetura. Os palestrantes compartilharão insights sobre novos materiais, tecnologias e abordagens de design que estão moldando o futuro da profissão.",
+      "dataInicio": "2024-04-08",
+      "dataFim": "2024-04-08",
+      "local": "Auditório da Universidade Metropolitana",
+      "imagem": "arquitetura_tendencias.png"
+    },
+    {
+      "id": 8,
+      "titulo": "Fórum de Reabilitação e Restauração de Edifícios Históricos",
+      "descricao": "Este fórum reúne especialistas em preservação histórica e arquitetos para discutir as melhores práticas em reabilitação e restauração de edifícios antigos. Serão abordados temas como conservação de patrimônio e técnicas de restauração.",
+      "dataInicio": "2024-06-20",
+      "dataFim": "2024-06-22",
+      "local": "Centro Cultural do Patrimônio",
+      "imagem": "arquitetura_historica.png"
+    },
+    {
+      "id": 9,
+      "titulo": "Seminário de Paisagismo Urbano Sustentável",
+      "descricao": "Este seminário explora a integração de elementos naturais e espaços verdes em ambientes urbanos. Serão discutidas técnicas de paisagismo que promovem a sustentabilidade e a qualidade de vida nas cidades.",
+      "dataInicio": "2024-08-04",
+      "dataFim": "2024-08-06",
+      "local": "Instituto de Arquitetura Verde",
+      "imagem": "arquitetura_paisagismo.png"
+    },
+    {
+      "id": 10,
+      "titulo": "Encontro de Arquitetos Paisagistas",
+      "descricao": "Este encontro reúne arquitetos paisagistas para compartilhar projetos e ideias inovadoras no campo do design de espaços externos. Os participantes terão a oportunidade de trocar experiências e colaborar em novos projetos.",
+      "dataInicio": "2024-09-15",
+      "dataFim": "2024-09-17",
+      "local": "Centro de Eventos Botânica",
+      "imagem": "arquitetura_encontro.png"
+    }
+  ]
+}

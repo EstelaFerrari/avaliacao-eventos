@@ -1,11 +1,11 @@
 .header {
     background-color: #f00e70;
     display: flex;
-    gap: 15px;
-    list-style: none;
-    font-size: x-large;
     align-items: center;
-
+    font-size: x-large;
+    justify-content: space-between;
+    padding: 0 1rem;
+    
 }
 
 .titulo {
@@ -15,4 +15,16 @@
 .texto_header {
     color: #ffffff;
     text-decoration: none;
+}
+
+.cadastro {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.links {
+    gap: 15px;
+    list-style: none;
+    display: flex;
+    
 }

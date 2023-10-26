@@ -1,0 +1,9 @@
+.pagina_cadatro {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.corpo_cadatro{
+    flex-grow: 1;
+}

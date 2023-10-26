@@ -14,11 +14,22 @@ export default function CardList() {
     }, [])
 
     function formatarData(data) {
-        const [ano, mes, dia] = data.split('-');
-        return `${dia}/${mes}/${ano}`
+        if (typeof data === 'string') {
+            const [ano, mes, dia] = data.split('-');
+            return `${dia}/${mes}/${ano}`;
+        } else {
+            return data;
+        }
+
+
+        // const [ano, mes, dia] = data.split('-');
+        // return `${dia}/${mes}/${ano}`
     }
 
-    return (
+
+
+
+    if (eventos) return (
         <>
             <div className={styles.cardList}>
                 {eventos?.map(e => (

@@ -1,0 +1,40 @@
+.pagina {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+
+
+.dados_evento {
+    text-align: center;
+}
+
+.evento_pagina {
+    display: flex;
+    text-align: center;
+}
+
+
+.corpo {
+    flex-grow: 1;
+}
+
+.imagem{
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: center;
+}
+
+.desfocar{
+    text-align: center;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    width: 100%;
+    max-height: 250px;
+}
+
+.imagem_evento {
+    border-radius: 10px;
+    height: 400px;
+}
