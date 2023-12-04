@@ -44,95 +44,109 @@ export default function Cadastrar() {
     return (
 
         <>
-        <div className={styles.pagina_cadastro}>
-            <div>
-            <Header />
-            </div>
+            <div className={styles.pagina_cadastro}>
 
-            <div className={styles.corpo_cadastro}>
-            <h1>Cadastrar Evento</h1>
-            <form onSubmit={e => inserirEvento(e)}>
-                <div>
-                    <label htmlFor="titulo">Título</label>
-                    <input
-                        type="text"
-                        id="titulo"
-                        value={evento.titulo}
-                        onChange={e => setEvento({
-                            ...evento,
-                            titulo: e.target.value
-                        })} />
+                <Header />
+
+                <div className={styles.corpo_cadastro}>
+                    <div>
+                        <h1 className={styles.titulo}>Cadastrar Evento</h1>
+                    </div>
+                    <div>
+                        <form onSubmit={e => inserirEvento(e)}>
+                            <div>
+                                <div className={styles.texto_cadastro}>
+                                    <label htmlFor="titulo"><h4>Título:</h4></label>
+                                </div>
+                                <input className={styles.card_texto}
+                                    type="text"
+                                    id="titulo"
+                                    value={evento.titulo}
+                                    onChange={e => setEvento({
+                                        ...evento,
+                                        titulo: e.target.value
+                                    })} />
+
+                                <div className={styles.texto_cadastro}>
+                                    <label htmlFor="descricao"><h4>Descrição:</h4></label>
+                                </div>
+                                <textarea className={styles.descricao}
+                                    id="descricao"
+                                    value={evento.descricao}
+                                    onChange={e => setEvento({
+                                        ...evento,
+                                        descricao: e.target.value
+                                    })}></textarea>
+
+
+                                <div className={styles.texto_cadastro}>
+                                    <label htmlFor="local"><h4>Local:</h4></label>
+                                </div>
+                                <input className={styles.card_texto}
+                                    type="local"
+                                    value={evento.local}
+                                    onChange={e => setEvento({
+                                        ...evento,
+                                        local: e.target.value
+                                    })}></input>
+
+
+                                <div>
+                                    <div className={styles.texto_cadastro}>
+                                        <label htmlFor="dataInicio"><h4>Data de Inicio:</h4></label>
+                                    </div>
+                                    <input className={styles.card_data}
+                                        type='date'
+                                        value={evento.dataInicio}
+                                        onChange={e => setEvento({
+                                            ...evento,
+                                            dataInicio: e.target.value
+                                        })}></input>
+                                </div>
+
+                                <div>
+                                    <div className={styles.texto_cadastro}>
+                                        <label htmlFor="dataFim"> <h4>Data Fim:</h4></label>
+                                    </div>
+                                    <input className={styles.card_data}
+                                        type='date'
+                                        value={evento.dataFim}
+                                        onChange={e => setEvento({
+                                            ...evento,
+                                            dataFim: e.target.value
+                                        })}></input>
+                                </div>
+
+                                <br />
+
+
+                                <div className={styles.imagem_cadastro}>
+                                    <Input id='imagem' type={'file'}
+                                        onChange={(e) => {
+                                            const file = e.target.files[0];
+                                            if (file) {
+                                                const filePath = `/${file.name}`;
+                                                setEvento({ ...evento, imagem: filePath });
+                                            }
+                                        }}
+                                    />
+                                </div>
+
+                                <br />
+
+                                <div className={styles.formInfoButton}>
+                                    <Button>Salvar</Button>
+                                </div>
+
+                            </div>
+
+                        </form>
+                    </div>
                 </div>
 
-                <div>
-                    <label htmlFor="descricao">Descrição</label>
-                    <textarea
-                        id="descricao"
-                        value={evento.descricao}
-                        onChange={e => setEvento({
-                            ...evento,
-                            descricao: e.target.value
-                        })}></textarea>
+                <Footer />
 
-                    <div>
-                        <label htmlFor="dataInicio"> Data de Inicio</label>
-                        <input
-                            type='date'
-                            value={evento.dataInicio}
-                            onChange={e => setEvento({
-                                ...evento,
-                                dataInicio: e.target.value
-                            })}></input>
-                    </div>
-
-                    <div>
-                        <label htmlFor="dataFim"> Data Fim</label>
-                        <input
-                            type='date'
-                            value={evento.dataFim}
-                            onChange={e => setEvento({
-                                ...evento,
-                                dataFim: e.target.value
-                            })}></input>
-                    </div>
-
-                    <div>
-                        <label htmlFor="local"> Local</label>
-                        <input
-                            type="local"
-                            value={evento.local}
-                            onChange={e => setEvento({
-                                ...evento,
-                                local: e.target.value
-                            })}></input>
-                    </div>
-
-                    <div className={styles.imagem_cadastro}>
-                        <Input id='imagem' type={'file'}
-                            onChange={(e) => {
-                                const file = e.target.files[0];
-                                if (file) {
-                                    const filePath = `/${file.name}`;
-                                    setEvento({ ...evento, imagem: filePath });
-                                }
-                            }}
-                        />
-                    </div>
-
-                    <div className={styles.formInfoButton}>
-                        <Button>Salvar</Button>
-                    </div>
-
-                </div>
-
-            </form>
             </div>
-
-            <div>
-            <Footer />
-            </div>
-
-        </div>
 
         </>
 

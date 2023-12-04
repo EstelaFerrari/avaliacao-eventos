@@ -41,18 +41,14 @@ export default function Evento() {
                 <Header />
                 <div className={styles.corpo}>
                     <div className={styles.evento_pagina}>
-                        <div className={styles.imagem} tyle={{ 'background-image': `url(${evento.imagem})` }}>
-                            <div className={styles.desfocar}>
-                                <img className={styles.imagem_evento} src={`../${evento.imagem}`} />
-                            </div>
+                        <img className={styles.imagem_evento} src={`../${evento.imagem}`} />
+                        <div className={styles.dados_eventos}>
+                            <h2>{evento.titulo}</h2>
+                            <h4>{evento.descricao}</h4>
+                            <h4>{formatarData(evento.dataInicio)}</h4>
+                            <h4>{formatarData(evento.dataFim)}</h4>
+                            <h4>{evento.local}</h4>
                         </div>
-                                <div className={styles.dados_eventos}>
-                                    <h2>{evento.titulo}</h2>
-                                    <h4>{evento.descricao}</h4>
-                                    <h4>{formatarData(evento.dataInicio)}</h4>
-                                    <h4>{formatarData(evento.dataFim)}</h4>
-                                    <h4>{evento.local}</h4>
-                                </div>
                     </div>
                 </div>
 

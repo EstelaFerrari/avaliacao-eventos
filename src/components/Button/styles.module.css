@@ -1,3 +1,5 @@
 .button {
-    display: flex;
+    height: 2rem;
+    width: 4rem;
+    align-items: center;
 }

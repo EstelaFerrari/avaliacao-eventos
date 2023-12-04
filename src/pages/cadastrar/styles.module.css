@@ -1,9 +1,33 @@
-.pagina_cadatro {
+.pagina_cadastro {
     display: flex;
     flex-direction: column;
     min-height: 100vh;
 }
 
-.corpo_cadatro{
+.corpo_cadastro{
     flex-grow: 1;
+    flex-direction: column;
+}
+
+.titulo{
+    text-decoration: solid;
+}
+
+.texto_cadastro{
+    text-align:left;
+}
+
+.card_texto {
+    min-width: 500px;
+    min-height: 30px;
+}
+
+.card_data {
+    min-width: 200px;
+    min-height: 30px;
+}
+
+.descricao {
+    min-height: 100px;
+    min-width: 500px;
 }
